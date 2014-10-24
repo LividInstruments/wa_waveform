@@ -1,3 +1,5 @@
+//by Peter Nyboer pete@lividinstruments.com
+//this script can read in a local file and draw the waveform to a hidden canvas.
 
 console.log("MAIN JS ");  
 
