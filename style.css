@@ -1,0 +1,28 @@
+@font-face {
+    font-family:"Helvetica Neue Light",Helvetica,sans-serif;
+}
+
+body {
+    background: #424242;
+    font-family:"Helvetica Neue Light",Helvetica,sans-serif;
+}
+h2 {
+     color: white;
+}
+p {
+     color: white;
+}
+#container {
+    text-align:center;
+    
+}
+#canvas {
+    width: 900px;
+    height: 100px;
+    margin-top: 10px;
+    background: #FFFFFF;
+    border: 1px solid #9c9c9c;
+}
+#canvaswave {
+  visibility: hidden;
+}

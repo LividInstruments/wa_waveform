@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<html>
+<title>Waveform Testbed</title>
+	
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+	<script src="main.js"></script>
+	<script src="waveselection.js"></script>
+
+
+	<body>
+<div class='container' id='container'>
+  
+  <!--Header-->
+    <h2>waveform playground</h2>
+
+
+
+    <!--Waveform Display Canvas-->
+    <div>
+        <canvas id='canvas'></canvas>
+    </div>
+    <div>
+        <button id="zoom">zoom selection</button>
+        <button id="full">full</button>
+    </div>
+    <div>
+    <p>
+      Loads a local file and draws its waveform. Squares are the "handles" for selections with mouse.
+    </p>
+    </div>
+    <div>
+        <canvas id='canvaswave'></canvas>
+    </div>
+</div>
+    
+	</body>
+</html>
