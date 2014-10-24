@@ -1,4 +1,6 @@
-
+//by Peter Nyboer pete@lividinstruments.com
+//in conjunction with main.js where the waveform is drawn, 
+//this sets up interactive handles for selecting portions of the waveform
 //modified from JavaScript HTML5 Canvas example by Dan Gries, rectangleworld.com.
 
 console.log("DRAG CANVAS JS")
